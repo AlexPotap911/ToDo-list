@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/nullstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+   
+    <title>My ToDo List</title>
+  </head>
+  <body>
+      <div class="todo-wrapper">
+
+       <header class="header">
+          <h1 class="todo-title">ToDo App</h1>
+          <h2 class="todo-subtitle">Tasks list for today</h2>
+       </header>
+
+     <main class="main">
+          <div class="card">
+            <ul class="todo-list" id="tasksList">
+              <!-- <li class="empty-list" id="emptyList">
+                <img src="./img/start.svg" alt="start image" />
+                <div class="empty-list__title">ToDo list is empty</div>
+              </li> -->
+  
+              <!-- <li class="task-item" id="task">
+                <h3 class="task-title">Buy something new</h3>
+                <div class="task-buttons">
+                  <button type="button" class="btn-action" data-action="done">
+                    <img src="./img/tick.svg" width="18" height="18 alt="done">
+                  </button>
+                  <button type="button" class="btn-action" data-action="delete">
+                    <img src="./img/cross.svg" width="18" height="18 alt="delete">
+                  </button>
+                </div>
+              </li> -->
+
+            </ul>
+          </div>
+  
+          <div class="card">
+            <div class="card-header">Add a new task</div>
+            <div class="card-body">
+              <form id="form">
+                <input
+                  type="text"
+                  id="taskInput"
+                  placeholder="Task text"
+                  required
+                />
+                <button type="submit" class="btn-form">Add</button>
+              </form>
+            </div>
+          </div>
+     </main>
+
+        <footer class="footer">
+          <div class="copyright">ToDo List 2023</div>
+        </footer>
+     
+      </div>   
+    <script src="./js/main.js"></script>
+  </body>
+</html>
