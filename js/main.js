@@ -66,7 +66,7 @@ function doneTask(event) {
       return true;
     }
   });
-  task.done = !tasksList.done;
+  task.done = !task.done;
 
   safeToLocalStorage();
 
